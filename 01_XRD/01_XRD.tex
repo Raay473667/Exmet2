@@ -1,0 +1,116 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage [utf8x]{inputenc}
+\usepackage[czech]{babel} 
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{xspace}
+\usepackage{url}
+\usepackage{indentfirst}
+\usepackage[margin=22mm]{geometry}
+\usepackage{esvect}
+\usepackage{ragged2e}
+\usepackage{tikz,pgf}
+\usepackage{bm}
+\usepackage{perpage}
+\usepackage{capt-of}
+\usepackage{hyperref}
+
+\hypersetup{
+	colorlinks=true,
+	filecolor=magenta,      
+	urlcolor=cyan,
+}
+
+\graphicspath{
+	{img/}
+	{plots/}
+}
+
+\MakeSorted{figure}
+\newtoks\jmenopraktika \newtoks\jmeno \newtoks\datum
+\newtoks\obor \newtoks\skupina \newtoks\rocnik \newtoks\semestr
+\newtoks\cisloulohy \newtoks\jmenoulohy
+\newtoks\tlak \newtoks\teplota \newtoks\vlhkost
+\jmenopraktika={Rentgenová difrakce}  
+% nahradte jmenem vaseho predmetu
+\jmeno={Radek Horňák}            
+\datum={23.~února 2022}        % nahradte datem mereni ulohy
+\obor={F}                     
+\skupina={Středa 10:00}            
+\rocnik={2.}                  
+\semestr={IV.}                 
+\cisloulohy={6}    % cislo ulohy           
+
+\begin{document}
+	\begin{center}
+		{\Large Přírodovědecká fakulta Masarykovy univerzity} \\
+		\bigskip
+		{\Large \bfseries EXPERIMENTÁLNÍ METODY 2} \\
+		\bigskip
+		{\Large \the\jmenopraktika}
+	\end{center}
+	\bigskip
+	\noindent
+	\setlength{\arrayrulewidth}{1pt}
+	\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l l}
+		\large {\bfseries Zpracoval:}  \the\jmeno  \\ \\ \large  
+		{\bfseries Skupina:} \the\skupina \hspace{40mm} \large  
+		{\bfseries Datum:} \the\datum\\ \\
+		\hline
+	\end{tabular*}
+	
+	\section{Úvod}
+\par Rentgenová difrakce, pro kterou používáme zkratku XRD (z angl. X-ray 
+diffraction) je analytická metoda pro určení atomové a molekulární 
+struktury krystalu. Krystalová mřížka způsobí difrakci dopadajícího 
+rentgenového záření. Měřením úhlů a intenzit rozptýleného záření lze určit 
+střední polohy atomů v krystalu, chemické vazby, rozměr elementární buňky aj.
+\par První Braggovou difrakční podmínkou je dopad monochromatického zážení na 
+polykrystalický vzorek, jehož zrna jsou tak malá, že v ozářeném objemu jsou 
+zastoupeny všechny orientace zrn. Tyto zrna difraktují dle rovnice
+\begin{equation}
+	2a \sin \theta = \lambda \sqrt{(h^2+k^2+l^2)}  
+\end{equation}
+kde $\lambda$ je vlnová délka záření, $a$ je mřížkový parametr a $h,k,l$ jsou 
+Laueho indexy. Ty vzniknou vynásobením Millerových indexů $h_0,k_0,l_0$ roviny 
+přirozeným číslem $n$, které je řádem difrakce.
+\par Intenzita difrakce závisí na struktuře elementární buňky. Pro prostou 
+kubickou mřížku jsou všechny difrakce povoleny. Prostorově centrovaná kubická 
+mřížka má povolené difrakce, jejichž součet Laueho indexů je sudý. V plošně 
+centrované kubické mřížce jsou povoleny difrakce, pokud Laueho indexy jsou buď 
+všechny sudé, nebo všechny liché. Diamantová mřížka má povolené difrakce, pokud 
+jsou Laueho indexy liché a nebo jsou sudé a zároveň je jejich součet dělitelný 
+čtyřmi.
+\par Pro výpočet velikosti krystalitů se využívá Scherrerovy rovnice:
+
+\begin{equation}
+	\tau = \dfrac{K\lambda}{\beta cos\Theta}
+\end{equation}
+$\tau$ je velikost krystalitů, $K$ je empirický faktor udávající tvar 
+krystalitů (typicky 0,94), $\beta$ je pološířka píku v polovině jeho maxima a 
+$\theta$ je úhel udávající pozici píku.
+
+\section{Měření}
+\par Měření se provádí v Bragg-Brentanově konfiguraci -- samofokusující 
+konfiguraci. Před samotným měřením je potřeba přístroj najustovat, tedy 
+nastavit 
+vzádelnosti zdroj-střed goniometru a střed goniometru-detektor na stejnou 
+hodnotu, a také aby úhel dopadu středního paprsku byl roven jeho úhlu výstupu 
+ze vzorku do detektoru. Zdrojem záření je Cu rentgenka obsahující vlnové délky 
+K$_{\alpha1}$ a K$_{\alpha2}$, tedy 1,540601\,\AA\ respektive 1,544430\,\AA. 
+Sollerovy clony vymezují úhlovou aperturu ve směru kolmém na rozptylovou rovinu 
+a motorizovaná štěrbina ve směru podélném.
+\par Měřenou látkou je kuchyňská sůl. Při měření je využito měřicího rozsahu 
+$20 -- 100$\,°~s krokem 0,01\,°. Výstupem je závislost měřené intenzity na 
+difrakčním úhlu $2\theta$.
+
+
+
+
+	
+	\clearpage
+	\section{Závěr}
+
+	
+	
+\end{document}
