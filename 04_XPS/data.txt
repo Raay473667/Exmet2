@@ -1,0 +1,24 @@
+sensitivní faktor rsf https://xpslibrary.com/wp-content/uploads/2019/08/Scofield-Al-X-rays-RSF-Collection.htm
+ověřeno z casaXPS
+C 1s 1,0
+O 1s 2,93
+Al 2p 0,537	
+Ca 2p 5,07	
+Si 2p 0,817	
+http://www.xpsfitting.com/2012/08/spin-orbit-splitting.html
+http://www.xpsfitting.com/2009/04/relative-sensitivity-factors-rsf.html
+
+https://analyticalscience.wiley.com/do/10.1002/micro.620/full/id0f755c16020bfdbfe4de8804e569337.pdf rozlišení EDX
+- lepší rozlišení než EDX (EDX můžou některé prvky splývat a reálné hodnoty jsou zkreslené), vazby, lehčí prvky
+Why EDS Cannot detect light elements?
+Light elements (Z < 11) cannot be routinely analysed by EDS. Hydrogen (Z = 1) and He (Z = 2) do not have Characteristic X-rays, and the Li (Z = 3) K X-rays are of too low energy to be detected by EDS.
+Lithium and beryllium, meanwhile, have sufficiently low atomic numbers that the energy of X-rays given off by Li or Be samples is insufficient for measurement, and often times they cannot be tested as a result.
+Lehké prvky nepřesné, zanesená velká chyba
+
+Vazby určit zde:
+https://www.jp.xpssimplified.com/elements/carbon.php
+https://srdata.nist.gov/xps/Default.aspx
+http://techdb.podzone.net/xpsstate-e/index.cgi?element=Al
+http://www.xpsfitting.com/search/label/Aluminum
+http://www.xpsfitting.com/2015/11/polyethylene-surfaces.html
+
