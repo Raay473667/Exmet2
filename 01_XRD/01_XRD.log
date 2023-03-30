@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.2)  24 MAR 2023 00:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.2)  30 MAR 2023 13:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1055,75 +1055,128 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip67
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 22.
-\c@pp@a@figure=\count310
-\jmenopraktika=\toks37
-\jmeno=\toks38
-\datum=\toks39
-\obor=\toks40
-\skupina=\toks41
-\rocnik=\toks42
-\semestr=\toks43
-\cisloulohy=\toks44
-\jmenoulohy=\toks45
-\tlak=\toks46
-\teplota=\toks47
-\vlhkost=\toks48
+(D:\Programy\Miktex\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2023-01-03 v3.2.0 A comprehensive (SI) units package
+\l__siunitx_angle_tmp_dim=\dimen271
+\l__siunitx_angle_marker_box=\box64
+\l__siunitx_angle_unit_box=\box65
+\l__siunitx_compound_count_int=\count310
+
+(D:\Programy\Miktex\tex/latex/translations\translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+
+(D:\Programy\Miktex\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count311
+))
+\l__siunitx_number_exponent_fixed_int=\count312
+\l__siunitx_number_min_decimal_int=\count313
+\l__siunitx_number_min_integer_int=\count314
+\l__siunitx_number_round_precision_int=\count315
+\l__siunitx_number_lower_threshold_int=\count316
+\l__siunitx_number_upper_threshold_int=\count317
+\l__siunitx_number_group_first_int=\count318
+\l__siunitx_number_group_size_int=\count319
+\l__siunitx_number_group_minimum_int=\count320
+\l__siunitx_table_tmp_box=\box66
+\l__siunitx_table_tmp_dim=\dimen272
+\l__siunitx_table_column_width_dim=\dimen273
+\l__siunitx_table_integer_box=\box67
+\l__siunitx_table_decimal_box=\box68
+\l__siunitx_table_uncert_box=\box69
+\l__siunitx_table_before_box=\box70
+\l__siunitx_table_after_box=\box71
+\l__siunitx_table_before_dim=\dimen274
+\l__siunitx_table_carry_dim=\dimen275
+\l__siunitx_unit_tmp_int=\count321
+\l__siunitx_unit_position_int=\count322
+\l__siunitx_unit_total_int=\count323
+
+(D:\Programy\Miktex\tex/latex/tools\array.sty
+Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen276
+\ar@mcellbox=\box72
+\extrarowheight=\dimen277
+\NC@list=\toks37
+\extratabsurround=\skip68
+\backup@length=\skip69
+\ar@cellbox=\box73
+))
+(D:\Programy\Miktex\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen278
+\lightrulewidth=\dimen279
+\cmidrulewidth=\dimen280
+\belowrulesep=\dimen281
+\belowbottomsep=\dimen282
+\aboverulesep=\dimen283
+\abovetopsep=\dimen284
+\cmidrulesep=\dimen285
+\cmidrulekern=\dimen286
+\defaultaddspace=\dimen287
+\@cmidla=\count324
+\@cmidlb=\count325
+\@aboverulesep=\dimen288
+\@belowrulesep=\dimen289
+\@thisruleclass=\count326
+\@lastruleclass=\count327
+\@thisrulewidth=\dimen290
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 24.
+\c@pp@a@figure=\count328
+\jmenopraktika=\toks38
+\jmeno=\toks39
+\datum=\toks40
+\obor=\toks41
+\skupina=\toks42
+\rocnik=\toks43
+\semestr=\toks44
+\cisloulohy=\toks45
+\jmenoulohy=\toks46
+\tlak=\toks47
+\teplota=\toks48
+\vlhkost=\toks49
 
 (D:\Programy\Miktex\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count311
-\l__pdf_internal_box=\box64
-) (01_XRD.aux
-
-LaTeX Warning: Label `fig:spectrum' multiply defined.
-
-
-LaTeX Warning: Label `fig:spectrum' multiply defined.
-
-
-LaTeX Warning: Label `fig:spectrum' multiply defined.
-
-
-LaTeX Warning: Label `fig:spectrum' multiply defined.
-
-
-LaTeX Warning: Label `fig:spectrum' multiply defined.
-
-)
+\l__color_backend_stack_int=\count329
+\l__pdf_internal_box=\box74
+) (01_XRD.aux)
 \openout1 = `01_XRD.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
- (D:\Programy\Miktex\tex/context/base/mkii\supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+
+(D:\Programy\Miktex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count312
-\scratchdimen=\dimen271
-\scratchbox=\box65
-\nofMPsegments=\count313
-\nofMParguments=\count314
-\everyMPshowfont=\toks49
-\MPscratchCnt=\count315
-\MPscratchDim=\dimen272
-\MPnumerator=\count316
-\makeMPintoPDFobject=\count317
-\everyMPtoPDFconversion=\toks50
+\scratchcounter=\count330
+\scratchdimen=\dimen291
+\scratchbox=\box75
+\nofMPsegments=\count331
+\nofMParguments=\count332
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count333
+\MPscratchDim=\dimen292
+\MPnumerator=\count334
+\makeMPintoPDFobject=\count335
+\everyMPtoPDFconversion=\toks51
 ) (D:\Programy\Miktex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1166,101 +1219,122 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 44.
+Package hyperref Info: Link coloring ON on input line 46.
 (01_XRD.out) (01_XRD.out)
 \@outlinefile=\write4
 \openout4 = `01_XRD.out'.
 
+Package translations Info: no dictionary file `translations-basic-dictionary-cz
+ech.trsl' found. on input line 46.
 LaTeX Font Info:    Trying to load font information for U+esvect on input line 
-55.
+57.
  (D:\Programy\Miktex\tex/latex/esvect\uesvect.fd
 File: uesvect.fd 
 )
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 53--60
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 55--62
  [] 
  []
-
-<plots//xrdplot.pdf, id=18, 462.52798pt x 346.89601pt>
-File: plots//xrdplot.pdf Graphic file (type pdf)
-<use plots//xrdplot.pdf>
-Package pdftex.def Info: plots//xrdplot.pdf  used on input line 109.
-(pdftex.def)             Requested size: 472.31577pt x 354.2527pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<plots//xrdplot43.14.pdf, id=19, 462.52798pt x 346.89601pt>
-File: plots//xrdplot43.14.pdf Graphic file (type pdf)
-<use plots//xrdplot43.14.pdf>
-Package pdftex.def Info: plots//xrdplot43.14.pdf  used on input line 129.
-(pdftex.def)             Requested size: 472.31577pt x 354.2527pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<plots//xrdplot50.28.pdf, id=20, 462.52798pt x 346.89601pt>
-File: plots//xrdplot50.28.pdf Graphic file (type pdf)
-<use plots//xrdplot50.28.pdf>
-Package pdftex.def Info: plots//xrdplot50.28.pdf  used on input line 138.
-(pdftex.def)             Requested size: 472.31577pt x 354.2527pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<plots//xrdplot73.98.pdf, id=21, 462.52798pt x 346.89601pt>
-File: plots//xrdplot73.98.pdf Graphic file (type pdf)
-<use plots//xrdplot73.98.pdf>
-Package pdftex.def Info: plots//xrdplot73.98.pdf  used on input line 147.
-(pdftex.def)             Requested size: 472.31577pt x 354.2527pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<plots//xrdplot89.8.pdf, id=22, 462.52798pt x 346.89601pt>
-File: plots//xrdplot89.8.pdf Graphic file (type pdf)
-<use plots//xrdplot89.8.pdf>
-Package pdftex.def Info: plots//xrdplot89.8.pdf  used on input line 156.
-(pdftex.def)             Requested size: 472.31577pt x 354.2527pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<plots//xrdplot95.0.pdf, id=23, 462.52798pt x 346.89601pt>
-File: plots//xrdplot95.0.pdf Graphic file (type pdf)
-<use plots//xrdplot95.0.pdf>
-Package pdftex.def Info: plots//xrdplot95.0.pdf  used on input line 165.
-(pdftex.def)             Requested size: 472.31577pt x 354.2527pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [1
 
 {C:/Users/Radek/AppData/Local/MiKTeX/2.9/fonts/map/pdftex/pdftex.map}]
-[2 <./plots//xrdplot.pdf>] [3 <./plots//xrdplot43.14.pdf>] [4 <./plots//xrdplot
-50.28.pdf>] [5 <./plots//xrdplot73.98.pdf>] [6 <./plots//xrdplot89.8.pdf>]
-[7 <./plots//xrdplot95.0.pdf>] [8
+
+Package siunitx Warning: Unit macro \angstrom has been deprecated in this
+(siunitx)                release.
+(siunitx)                
+(siunitx)                The BIPM have removed this unit from the SI Brochure.
+(siunitx)                You should define it yourself using \DeclareSIUnit in
+(siunitx)                your source. The current definition is
+(siunitx)                
+(siunitx)                \DeclareSIUnit\angstrom{\text {Å}}
+
+<plots//xrdplot.pdf, id=44, 462.52798pt x 346.89601pt>
+File: plots//xrdplot.pdf Graphic file (type pdf)
+<use plots//xrdplot.pdf>
+Package pdftex.def Info: plots//xrdplot.pdf  used on input line 165.
+(pdftex.def)             Requested size: 425.0813pt x 318.8253pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<plots//xrdplot43.14.pdf, id=45, 462.52798pt x 289.08pt>
+File: plots//xrdplot43.14.pdf Graphic file (type pdf)
+<use plots//xrdplot43.14.pdf>
+Package pdftex.def Info: plots//xrdplot43.14.pdf  used on input line 174.
+(pdftex.def)             Requested size: 472.31577pt x 295.21057pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<plots//xrdplot50.28.pdf, id=46, 462.52798pt x 289.08pt>
+File: plots//xrdplot50.28.pdf Graphic file (type pdf)
+<use plots//xrdplot50.28.pdf>
+Package pdftex.def Info: plots//xrdplot50.28.pdf  used on input line 183.
+(pdftex.def)             Requested size: 472.31577pt x 295.21057pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<plots//xrdplot74.pdf, id=47, 462.52798pt x 289.08pt>
+File: plots//xrdplot74.pdf Graphic file (type pdf)
+<use plots//xrdplot74.pdf>
+Package pdftex.def Info: plots//xrdplot74.pdf  used on input line 192.
+(pdftex.def)             Requested size: 472.31577pt x 295.21057pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<plots//xrdplot89.8.pdf, id=48, 462.52798pt x 289.08pt>
+File: plots//xrdplot89.8.pdf Graphic file (type pdf)
+<use plots//xrdplot89.8.pdf>
+Package pdftex.def Info: plots//xrdplot89.8.pdf  used on input line 201.
+(pdftex.def)             Requested size: 472.31577pt x 295.21057pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<plots//xrdplot95.0.pdf, id=49, 462.52798pt x 289.08pt>
+File: plots//xrdplot95.0.pdf Graphic file (type pdf)
+<use plots//xrdplot95.0.pdf>
+Package pdftex.def Info: plots//xrdplot95.0.pdf  used on input line 210.
+(pdftex.def)             Requested size: 472.31577pt x 295.21057pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[2]
+
+LaTeX Warning: Text page 3 contains only floats.
+
+[3 <./plots//xrdplot.pdf> <./plots//xrdplot43.14.pdf>]
+
+LaTeX Warning: Text page 4 contains only floats.
+
+[4 <./plots//xrdplot50.28.pdf> <./plots//xrdplot74.pdf>]
+
+LaTeX Warning: Text page 5 contains only floats.
+
+[5 <./plots//xrdplot89.8.pdf> <./plots//xrdplot95.0.pdf>] [6
 
 ] (01_XRD.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `01_XRD.out' has not changed.
-(rerunfilecheck)             Checksum: 305ED31572C38830AE643D51D8675D76;222.
+(rerunfilecheck)             Checksum: D9F4CA8C117D052947875791C8BD8393;368.
  ) 
 Here is how much of TeX's memory you used:
- 21403 strings out of 476375
- 397865 string characters out of 5801158
+ 25196 strings out of 476375
+ 502976 string characters out of 5801158
  1871299 words of memory out of 5000000
- 41376 multiletter control sequences out of 15000+600000
- 520269 words of font info for 61 fonts, out of 8000000 for 9000
+ 45142 multiletter control sequences out of 15000+600000
+ 521844 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 88i,7n,91p,404b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Radek\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
-tcrm1200.pk><D:/Programy/Miktex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/P
-rogramy/Miktex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Programy/Miktex/fo
-nts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Programy/Miktex/fonts/type1/public/
-amsfonts/cm/cmmi8.pfb><D:/Programy/Miktex/fonts/type1/public/amsfonts/cm/cmr12.
-pfb><D:/Programy/Miktex/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/Programy/M
-iktex/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Programy/Miktex/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb>
-Output written on 01_XRD.pdf (8 pages, 252322 bytes).
+ 88i,15n,91p,404b,906s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{D:/Programy/Miktex/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<D:/Programy/Mi
+ktex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Programy/Miktex/fonts/type1/
+public/amsfonts/cm/cmex10.pfb><D:/Programy/Miktex/fonts/type1/public/amsfonts/c
+m/cmmi12.pfb><D:/Programy/Miktex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/P
+rogramy/Miktex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Programy/Miktex/fon
+ts/type1/public/amsfonts/cm/cmr17.pfb><D:/Programy/Miktex/fonts/type1/public/am
+sfonts/cm/cmr8.pfb><D:/Programy/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b><D:/Programy/Miktex/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/Programy/Mik
+tex/fonts/type1/public/amsfonts/cm/cmti12.pfb><D:/Programy/Miktex/fonts/type1/p
+ublic/cm-super/sfrm1200.pfb>
+Output written on 01_XRD.pdf (6 pages, 289675 bytes).
 PDF statistics:
- 360 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
- 67 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 389 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
+ 75 words of extra memory for PDF output out of 10000 (max. 10000000)
 

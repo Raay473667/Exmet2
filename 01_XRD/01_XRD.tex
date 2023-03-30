@@ -14,6 +14,8 @@
 \usepackage{perpage}
 \usepackage{capt-of}
 \usepackage{hyperref}
+\usepackage{siunitx}
+\usepackage{booktabs}
 
 \hypersetup{
 	colorlinks=true,
@@ -54,26 +56,29 @@
 	\setlength{\arrayrulewidth}{1pt}
 	\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l l}
 		\large {\bfseries Zpracoval:}  \the\jmeno  \hspace{50mm} \large  
-		{\bfseries Datum:} \the\datum\\ \\
+		{\bfseries Datum:} \the\datum\\ 
 		\hline
 	\end{tabular*}
 	
-	\section{Úvod}
-\par Rentgenová difrakce, pro kterou používáme zkratku XRD (z angl. X-ray 
+\section{Úvod}\noindent
+Rentgenová difrakce, pro kterou používáme zkratku XRD (z angl. X-ray 
 diffraction) je analytická metoda pro určení atomové a molekulární 
 struktury krystalu. Krystalová mřížka způsobí difrakci dopadajícího 
 rentgenového záření. Měřením úhlů a intenzit rozptýleného záření lze určit 
 střední polohy atomů v krystalu, chemické vazby, rozměr elementární buňky aj.
-\par První Braggovou difrakční podmínkou je dopad monochromatického zážení na 
+
+První Braggovou difrakční podmínkou je dopad monochromatického záření na 
 polykrystalický vzorek, jehož zrna jsou tak malá, že v ozářeném objemu jsou 
 zastoupeny všechny orientace zrn. Tyto zrna difraktují dle rovnice
 \begin{equation}
 	2a \sin \theta = \lambda \sqrt{(h^2+k^2+l^2)}  
+	\label{eq:parameretr}
 \end{equation}
 kde $\lambda$ je vlnová délka záření, $a$ je mřížkový parametr a $h,k,l$ jsou 
 Laueho indexy. Ty vzniknou vynásobením Millerových indexů $h_0,k_0,l_0$ roviny 
 přirozeným číslem $n$, které je řádem difrakce.
-\par Intenzita difrakce závisí na struktuře elementární buňky. Pro prostou 
+
+Intenzita difrakce závisí na struktuře elementární buňky. Pro prostou 
 kubickou mřížku jsou všechny difrakce povoleny. Prostorově centrovaná kubická 
 mřížka má povolené difrakce, jejichž součet Laueho indexů je sudý. V plošně 
 centrované kubické mřížce jsou povoleny difrakce, pokud Laueho indexy jsou buď 
@@ -84,52 +89,92 @@ jsou Laueho indexy liché a nebo jsou sudé a zároveň je jejich součet dělit
 
 \begin{equation}
 	\tau = \dfrac{K\lambda}{\beta cos\Theta}
+	\label{eq:krystaly}
 \end{equation}
 $\tau$ je velikost krystalitů, $K$ je empirický faktor udávající tvar 
 krystalitů (typicky 0,94), $\beta$ je pološířka píku v polovině jeho maxima a 
 $\theta$ je úhel udávající pozici píku.
 
-\section{Měření}
-\par Měření se provádí v Bragg-Brentanově konfiguraci -- samofokusující 
+\section{Měření}\noindent
+Měření se provádí v Bragg-Brentanově konfiguraci -- samofokusující 
 konfiguraci. Před samotným měřením je potřeba přístroj najustovat, tedy 
 nastavit 
-vzdáelnosti zdroj-střed goniometru a střed goniometru-detektor na stejnou 
+vzdálenosti zdroj-střed goniometru a střed goniometru-detektor na stejnou 
 hodnotu, a také aby úhel dopadu středního paprsku byl roven jeho úhlu výstupu 
 ze vzorku do detektoru. Zdrojem záření je Cu rentgenka obsahující vlnové délky 
 K$_{\alpha1}$ a K$_{\alpha2}$, tedy 1,540601\,\AA\ respektive 1,544430\,\AA. 
+Jsou zde také přítomné čáry K$_{\beta}$ a z wolframové žhavené 
+katody W$_\alpha$. Tyto čáry jsou potlačeny niklovým filtrem. 
 Sollerovy clony vymezují úhlovou aperturu ve směru kolmém na rozptylovou rovinu 
 a motorizovaná štěrbina ve směru podélném.
-\par Měřenou látkou je měď. Při měření je využito měřicího rozsahu 
+
+Měřenou látkou je měď. Při měření je využito měřicího rozsahu 
 $20 - 100$°~s krokem 0,01°. Výstupem je závislost měřené intenzity na 
 difrakčním úhlu $2\theta$.
+
+\section{Zpracování měření}\noindent
+Na obr.~\ref{fig:spectrum} vidíme naměřený difraktogram s odečteným 
+pozadím -- odečetl jsem konstantní hodnotu 5300. Pozorujeme, že Laueho indexy 
+jsou všechny buď sudé nebo liché, což znamená, že se jedná o plošně centrovanou 
+kubickou mřížku FCC. Následně jsem na obr.~\ref{fig:43} až \ref{fig:95} fitoval 
+jednotlivé 
+píky. Jelikož je každý pík rozštěpený na dva, což odpovídá rozdílné vlnové 
+délce K$_{\alpha1}$ a K$_{\alpha2}$, fitoval jsem součtem dvou Lorentzových 
+funkcí, které odpovídaly měřeným datům lépe, než funkce Gaussovy.
+
+Do tabulky~\ref{tab:fwhm} jsem vynesl polohy maxim píků K$_{\alpha1}$ 
+a~K$_{\alpha2}$, roviny difrakce jim příslušné a~pološířku (FWHM) fitovaných 
+píků.
+Následně jsem dle rovnice~\eqref{eq:parameretr} určil mřížkový parametr pomocí 
+obou čar K$_{\alpha1}$ a K$_{\alpha2}$. Výsledný mřížkový parametr určený jako 
+průměr hodnot je $a = (3,623\pm0,002)\,\si{\angstrom}$. Z pološířky píků jsem 
+dle rovnice~\eqref{eq:krystaly} spočítal velikost krystalitů. Průměrná velikost 
+krystalitů je $\tau = (60 \pm 2)\,\si{\nano\meter}$. 
+
+\begin{center}
+	\begin{table}[h!]
+		\centering
+		\caption{\centering Polohy maxim píků, roviny difrakcí, FWHM, mřížkový 
+		parametr a velikost krystalitů daných píků.}
+		\label{tab:fwhm}
+		\begin{tabular}{c|c|c|c|c|c} \toprule
+			Poloha maxima K$_{\alpha1}$ $2\theta$\,[\si{\degree}] & 43,13 & 
+			50,28 & 73,98 & 
+			89,80 & 95,02 
+			\\
+			Poloha maxima K$_{\alpha2}$ $2\theta$\,[\si{\degree}] & 43,24 &	
+			50,40 &	74,19 &	90,08 &	95,33 \\\midrule
+			Rovina difrakce & (111) & (200) & (220) & (311) & (222) \\
+			FWHM\,[\si{\degree}] & 0,1410 & 0,1569 & 0,1642 & 0,2216 & 0,1958 
+			\\ \midrule
+			Mřížkový parametr $a_1$\,[\si{\angstrom}] & 3,6298&	3,6267&	3,6211&	
+			3,6193&	3,6188 \\
+			Mřížkový parametr $a_2$\,[\si{\angstrom}] & 3,6300&	3,6271&	3,6212&	
+			3,6194&	3,6187 \\
+			Velikost krystalitů $\tau$\,[\si{\nano\meter}] & 63,27 & 58,43 & 
+			63,26 & 52,86 & 62,73 \\
+				
+		\bottomrule
+		\end{tabular}
+	\end{table}
+\end{center}
 
 \begin{figure}[h!]
 	\centering
 	%\vspace*{-8mm}
-	\includegraphics[width=\textwidth]{xrdplot.pdf}
+	\includegraphics[width=0.9\textwidth]{xrdplot.pdf}
 	%\vspace*{-2mm}
-	\caption{\centering }
+	\caption{\centering Difraktogram s rozpoznanými píky.}
 	\label{fig:spectrum}
 \end{figure}
-
-
-%\begin{figure}[h!]
-%	\centering
-%	%\vspace*{-8mm}
-%	\includegraphics[width=\textwidth]{xrdplot2.pdf}
-%	%\vspace*{-2mm}
-%	\caption{\centering }
-%	\label{fig:spectrum}
-%\end{figure}
-
 
 \begin{figure}[h!]
 	\centering
 	%\vspace*{-8mm}
 	\includegraphics[width=\textwidth]{xrdplot43.14.pdf}
 	%\vspace*{-2mm}
-	\caption{\centering }
-	\label{fig:spectrum}
+	\caption{\centering Fit píku (111).}
+	\label{fig:43}
 \end{figure}
 
 \begin{figure}[h!]
@@ -137,17 +182,17 @@ difrakčním úhlu $2\theta$.
 %\vspace*{-8mm}
 \includegraphics[width=\textwidth]{xrdplot50.28.pdf}
 %\vspace*{-2mm}
-\caption{\centering }
-\label{fig:spectrum}
+\caption{\centering Fit píku (200).}
+\label{fig:50}
 \end{figure}
 
 \begin{figure}[h!]
 \centering
 %\vspace*{-8mm}
-\includegraphics[width=\textwidth]{xrdplot73.98.pdf}
+\includegraphics[width=\textwidth]{xrdplot74.pdf}
 %\vspace*{-2mm}
-\caption{\centering }
-\label{fig:spectrum}
+\caption{\centering Fit píku (220).}
+\label{fig:74}
 \end{figure}
 
 \begin{figure}[h!]
@@ -155,8 +200,8 @@ difrakčním úhlu $2\theta$.
 %\vspace*{-8mm}
 \includegraphics[width=\textwidth]{xrdplot89.8.pdf}
 %\vspace*{-2mm}
-\caption{\centering }
-\label{fig:spectrum}
+\caption{\centering Fit píku (311).}
+\label{fig:90}
 \end{figure}
 	
 \begin{figure}[h!]
@@ -164,12 +209,35 @@ difrakčním úhlu $2\theta$.
 	%\vspace*{-8mm}
 	\includegraphics[width=\textwidth]{xrdplot95.0.pdf}
 	%\vspace*{-2mm}
-	\caption{\centering }
-	\label{fig:spectrum}
+	\caption{\centering Fit píku (222).}
+	\label{fig:95}
 \end{figure}
-	\clearpage
-	\section{Závěr}
+\clearpage
+\section{Závěr}\noindent
+V této úloze jsme se seznámili s rentgenovou difrakcí, metodou pro určení 
+atomové a molekulární struktury krystalu. Měřili jsme vzorek mědi. U pěti 
+nejvýznamnějších píků jsme určili jejich rovinu difrakce. Z nich můžeme říct, 
+že mřížka je plošně centrovaná kubická FCC. Z~polohy maxim jsme vypočítali 
+mřížkový parametr $a = (3,623\pm0,002)\,\si{\angstrom}$, což odpovídá rozmezí 
+teplot tabulkových hodnot $a_{\text{293\,\si{\kelvin}}} = 
+3,613\,\si{\angstrom}$ a $a_{\text{577\,\si{\kelvin}}} = 3,630\,\si{\angstrom}$ 
+\cite{cod}.
 
+Dále jsme určili fitováním Lorentzových funkcí pološířky píků. Z tohoto údaje 
+jsme vypočítali velikost krystalitů $\tau = (60 \pm 2)\,\si{\nano\meter}$.
+
+V rámci mé diplomové práce se věnuji osciloskopické a spektroskopické 
+diagnostice plaz\-mo\-vé\-ho výboje uvnitř kavitačního mraku. Nemám tedy žádný 
+materiál, u něhož bych mohl využít XRD metodu.
 	
+\begin{thebibliography}{10}
+	%\bibitem{copper} Simon, N.J., Drexler, E., \& Reed, R.P. (1992). 
+	%\textit{Properties of copper and copper alloys at cryogenic temperatures. 
+	%Final report.}
+	\bibitem{cod} Suh, IK., Ohta, H. \& Waseda, Y. \textit{High-temperature 
+	thermal expansion of six metallic elements measured by dilatation method 
+	and X-ray diffraction.} J Mater Sci 23, 757–760 (1988). 
+	https://doi.org/10.1007/BF01174717
+\end{thebibliography}
 	
 \end{document}
