@@ -37,7 +37,7 @@
 \jmenopraktika={Skenovací elektronový mikroskop}  
 % nahradte jmenem vaseho predmetu
 \jmeno={Radek Horňák}            
-\datum={23.~února 2022}        % nahradte datem mereni ulohy
+\datum={14.~února 2023}        % nahradte datem mereni ulohy
 \obor={F}                     
 \skupina={Středa 10:00}            
 \rocnik={2.}                  
@@ -73,7 +73,7 @@ seznámit se s měřením osobně.
 \section{Měření}
 \subsection{Titanová tříska}\noindent
 Prvním měřením bylo sledování povrchu třísky titanu po obrábění. Morfologii 
-povrchu vidíme na obrázcích \ref{fig:ti5000}. Snímky byly 
+povrchu vidíme na obrázku \ref{fig:ti5000}. Snímky byly 
 pořízeny při pracovní vzdálenosti (WD) 15,00\,\si{\milli\meter}, urychlovacím 
 napětí 6\,\si{\kilo\volt} a zvětšení $500\times$, respektive $5000\times$. 
 Vlevo vidíme snímek pořízený SE detektorem, který snímá sekundární elektrony. 
@@ -83,10 +83,14 @@ detektorem snímající zpětně odražené elektrony. Pravděpodobnost zpětné
 odražení je úměrná hmotnosti atomu. Tyto snímky nám tedy poskytují informaci o 
 rozložení chemických prvků ve vzorku, kde světlejší místa odpovídají těžším 
 prvkům. Pro přesnější určení prvků je použita metoda energiově disperzní 
-spektroskopie (EDX). Zde detekujeme rentgenové záření emitované ze vzorku. 
+spektroskopie (EDX). Zde detekujeme rentgenové záření emitované ze vzorku, viz 
+obr.~\ref{fig:EDX} a \ref{fig:EDX_tot}. 
 Následně z čar charakteristického rentgenového záření jsme schopni určit 
 procentuální zastoupení jednotlivých prvků. Tuto analýzu vidíme na 
-obr.~\ref{fig:EDX}.  
+obr.~\ref{fig:spectrum}. Pozorujeme kromě titanu (32,4\,\si{\percent}) také 
+uhlík (52,9\,\si{\percent}), kyslík (10,5\,\si{\percent}) a hliník 
+(2,7\,\si{\percent}). Na obr.~\ref{fig:EDX_C} lze vidět, že kopíruje morfologii 
+obrábění a lze usoudit, že obráběcí nástroj byl ze sloučeniny karbidu.
 
 
 \begin{figure}[h!]
@@ -95,7 +99,9 @@ obr.~\ref{fig:EDX}.
 	\includegraphics[width=\textwidth]{ti_500x_15mm.pdf}
 	\includegraphics[width=\textwidth]{ti_5000x_15mm.pdf}
 	%\vspace*{-2mm}
-	\caption{\centering }
+	\caption{\centering Morfologie povrchu titanové třísky: vlevo SE detektor, 
+	vpravo BSE 
+	detektor, nahoře zvětšení $500\times$, dole zvětšení $5000\times$.}
 	\label{fig:ti5000}
 \end{figure}
 
@@ -139,8 +145,9 @@ obr.~\ref{fig:EDX}.
 		\caption{\centering Al K$\alpha_{1}$}
 		\label{fig:EDX_Al}
 	\end{subfigure}
-	\label{fig:EDX}
+	
 	\caption{Prvkové rozložení ve vzorku určené EDX detektorem.}
+	\label{fig:EDX}
 \end{figure}
 
 \begin{figure}[h!]
@@ -154,8 +161,8 @@ obr.~\ref{fig:EDX}.
 		\hspace*{65mm}
 		\includegraphics[width=\textwidth]{legend.png}
 	\end{subfigure}
-	\caption{\centering }
-	\label{fig:Iab}
+	\caption{\centering Rozložení prvků Ti, Al a C ve vzorku.}
+	\label{fig:EDX_tot}
 \end{figure}
 
 \begin{figure}[h!]
@@ -163,13 +170,58 @@ obr.~\ref{fig:EDX}.
 	%\vspace*{-8mm}
 	\includegraphics[width=\textwidth]{Map Sum Spectrum.jpeg}
 	%\vspace*{-2mm}
-	\caption{\centering }
+	\caption{\centering Prvková analýza s procentuálním zastoupením.}
 	\label{fig:spectrum}
 \end{figure}
 
-\clearpage
-\section{Závěr}
+\subsection{Ubrousek a netkaná textilie}\noindent
+Dále jsme sledovali vzorky ubrousku z papíru a netkané textilie a rozdíly mezi 
+nimi, viz obr.~\ref{fig:ubrousek} a \ref{fig:uterka}. Jelikož se 
+jedná o nevodivé vzorky, museli jsme je napřed pokovit tenkou vrstvou v 
+magnetronové naprašovačce. Na obr.~\ref{fig:uterka} při zvětšení $500\times$ 
+vidíme místa, kde se pokovení neuchytilo. Dochází zde k lokálnímu nabíjení 
+vzorku, což způsobuje rozmazání snímku a~sníží jeho kvalitu. Chybějící vrstva 
+lze také 
+vidět při použitém BSE 
+detektoru -- pokovení je zpravidla z těžkých kovů jako např. zlato nebo 
+paladium a 
+tyto prvky jde vidět jasněji na BSE detektoru než prvek netkané textilie -- 
+uhlík.
 
-	
-	
+\begin{figure}[h!]
+	\centering
+	%\vspace*{-8mm}
+	\includegraphics[width=\textwidth]{ubrousek_200x_44mm.pdf}
+	\includegraphics[width=\textwidth]{ubrousek_500x_44mm.pdf}
+	%\vspace*{-2mm}
+	\caption{\centering Morfologie povrchu ubrousku: vlevo SE detektor, vpravo 
+	BSE 
+		detektor, nahoře zvětšení $200\times$, dole zvětšení $1000\times$.}
+	\label{fig:ubrousek}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	%\vspace*{-8mm}
+	\includegraphics[width=\textwidth]{uterka_200x_42mm.pdf}
+	\includegraphics[width=\textwidth]{uterka_500x_44mm.pdf}
+	%\vspace*{-2mm}
+	\caption{\centering Morfologie povrchu utěrky: vlevo SE detektor, vpravo 
+	BSE detektor, nahoře zvětšení $200\times$, dole zvětšení $500\times$.}
+	\label{fig:uterka}
+\end{figure}
+
+\clearpage
+\section{Závěr}\noindent
+V této úloze jsme se seznámili se skenovacím elektronovým mikroskopem. Naučili 
+jsme se připravit, popř. pokovit vzorky a následně pracovat s přiloženým 
+softwarem -- nastavit hloubku ostrosti, zaostřit a provést prvkovou analýzu 
+pomocí XRD.
+\par Pozorovanými vzorky byla titanová tříska, na které jsme pozorovali stopy 
+po obrábění, včetně prvkových stop zejména uhlíku určených pomocí XRD. Poté 
+jsme pozorovali rozdíly mezi papírovým ubrouskem a netkanou textilií. Papírový 
+ubrousek je složen z celulózy, zatímco u netkané textilie lze vidět jednotlivá 
+vlákna propletená/slisovaná mezi sebou. U~vzor\-ku netkané textilie jsme také 
+pozorovali efekty nabíjení způsobené odloupnutím naprášené tenké vrstvy kovu.
+
 \end{document}
