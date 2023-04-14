@@ -144,7 +144,7 @@ def main():
     ax.legend()
     plt.savefig(f'plots/xrdplot2.pdf')
     
-    fig, ax = plt.subplots()
+    fig, ax = plt.subplots(figsize = (6.4,4))
     ax.plot(x, y, label = 'Measured Data')
     ax.xaxis.set_minor_locator(AutoMinorLocator(5))
     ax.yaxis.set_minor_locator(AutoMinorLocator(5))

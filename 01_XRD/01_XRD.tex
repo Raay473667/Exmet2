@@ -69,7 +69,8 @@ střední polohy atomů v krystalu, chemické vazby, rozměr elementární buňk
 
 První Braggovou difrakční podmínkou je dopad monochromatického záření na 
 polykrystalický vzorek, jehož zrna jsou tak malá, že v ozářeném objemu jsou 
-zastoupeny všechny orientace zrn. Tyto zrna difraktují dle rovnice
+zastoupeny všechny orientace zrn. Tyto zrna difraktují dle Braggovy rovnice, 
+která má pro kubickou mřížku tvar:
 \begin{equation}
 	2a \sin \theta = \lambda \sqrt{(h^2+k^2+l^2)}  
 	\label{eq:parameretr}
@@ -88,7 +89,7 @@ jsou Laueho indexy liché a nebo jsou sudé a zároveň je jejich součet dělit
 \par Pro výpočet velikosti krystalitů se využívá Scherrerovy rovnice:
 
 \begin{equation}
-	\tau = \dfrac{K\lambda}{\beta cos\Theta}
+	\tau = \dfrac{K\lambda}{\beta cos\theta}
 	\label{eq:krystaly}
 \end{equation}
 $\tau$ je velikost krystalitů, $K$ je empirický faktor udávající tvar 
@@ -127,9 +128,10 @@ a~K$_{\alpha2}$, roviny difrakce jim příslušné a~pološířku (FWHM) fitovan
 píků.
 Následně jsem dle rovnice~\eqref{eq:parameretr} určil mřížkový parametr pomocí 
 obou čar K$_{\alpha1}$ a K$_{\alpha2}$. Výsledný mřížkový parametr určený jako 
-průměr hodnot je $a = (3,623\pm0,002)\,\si{\angstrom}$. Z pološířky píků jsem 
+průměr hodnot je $$a = (3,623\pm0,002)\,\si{\angstrom}$$
+Z pološířky píků jsem 
 dle rovnice~\eqref{eq:krystaly} spočítal velikost krystalitů. Průměrná velikost 
-krystalitů je $\tau = (60 \pm 2)\,\si{\nano\meter}$. 
+krystalitů je $$\tau = (60 \pm 2)\,\si{\nano\meter}$$ 
 
 \begin{center}
 	\begin{table}[h!]
@@ -162,7 +164,7 @@ krystalitů je $\tau = (60 \pm 2)\,\si{\nano\meter}$.
 \begin{figure}[h!]
 	\centering
 	%\vspace*{-8mm}
-	\includegraphics[width=0.9\textwidth]{xrdplot.pdf}
+	\includegraphics[width=\textwidth]{xrdplot.pdf}
 	%\vspace*{-2mm}
 	\caption{\centering Difraktogram s rozpoznanými píky.}
 	\label{fig:spectrum}
@@ -218,13 +220,16 @@ V této úloze jsme se seznámili s rentgenovou difrakcí, metodou pro určení
 atomové a molekulární struktury krystalu. Měřili jsme vzorek mědi. U pěti 
 nejvýznamnějších píků jsme určili jejich rovinu difrakce. Z nich můžeme říct, 
 že mřížka je plošně centrovaná kubická FCC. Z~polohy maxim jsme vypočítali 
-mřížkový parametr $a = (3,623\pm0,002)\,\si{\angstrom}$, což odpovídá rozmezí 
-teplot tabulkových hodnot $a_{\text{293\,\si{\kelvin}}} = 
-3,613\,\si{\angstrom}$ a $a_{\text{577\,\si{\kelvin}}} = 3,630\,\si{\angstrom}$ 
-\cite{cod}.
+mřížkový parametr $$a = (3,623\pm0,002)\,\si{\angstrom}$$ což odpovídá 
+tabulkovým hodnotám mřížkového parametru mědi v~rozsahu teplot 
+$293\,\si{\kelvin}$ 
+a~$577\,\si{\kelvin}$~\cite{cod}:
+%což odpovídá rozmezí teplot tabulkových hodnot 
+$$a_{\text{293\,\si{\kelvin}}} = 3,613\,\si{\angstrom}$$
+$$a_{\text{577\,\si{\kelvin}}} = 3,630\,\si{\angstrom}$$ 
 
 Dále jsme určili fitováním Lorentzových funkcí pološířky píků. Z tohoto údaje 
-jsme vypočítali velikost krystalitů $\tau = (60 \pm 2)\,\si{\nano\meter}$.
+jsme vypočítali velikost krystalitů $$\tau = (60 \pm 2)\,\si{\nano\meter}$$
 
 V rámci mé diplomové práce se věnuji osciloskopické a spektroskopické 
 diagnostice plaz\-mo\-vé\-ho výboje uvnitř kavitačního mraku. Nemám tedy žádný 

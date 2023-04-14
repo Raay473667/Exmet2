@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.2)  30 MAR 2023 13:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.2.2)  13 APR 2023 12:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1248,18 +1248,18 @@ Package siunitx Warning: Unit macro \angstrom has been deprecated in this
 (siunitx)                
 (siunitx)                \DeclareSIUnit\angstrom{\text {Å}}
 
-<plots//xrdplot.pdf, id=44, 462.52798pt x 346.89601pt>
+<plots//xrdplot.pdf, id=44, 462.52798pt x 289.08pt>
 File: plots//xrdplot.pdf Graphic file (type pdf)
 <use plots//xrdplot.pdf>
-Package pdftex.def Info: plots//xrdplot.pdf  used on input line 165.
-(pdftex.def)             Requested size: 425.0813pt x 318.8253pt.
+Package pdftex.def Info: plots//xrdplot.pdf  used on input line 167.
+(pdftex.def)             Requested size: 472.31577pt x 295.21057pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <plots//xrdplot43.14.pdf, id=45, 462.52798pt x 289.08pt>
 File: plots//xrdplot43.14.pdf Graphic file (type pdf)
 <use plots//xrdplot43.14.pdf>
-Package pdftex.def Info: plots//xrdplot43.14.pdf  used on input line 174.
+Package pdftex.def Info: plots//xrdplot43.14.pdf  used on input line 176.
 (pdftex.def)             Requested size: 472.31577pt x 295.21057pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1267,7 +1267,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <plots//xrdplot50.28.pdf, id=46, 462.52798pt x 289.08pt>
 File: plots//xrdplot50.28.pdf Graphic file (type pdf)
 <use plots//xrdplot50.28.pdf>
-Package pdftex.def Info: plots//xrdplot50.28.pdf  used on input line 183.
+Package pdftex.def Info: plots//xrdplot50.28.pdf  used on input line 185.
 (pdftex.def)             Requested size: 472.31577pt x 295.21057pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1275,7 +1275,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <plots//xrdplot74.pdf, id=47, 462.52798pt x 289.08pt>
 File: plots//xrdplot74.pdf Graphic file (type pdf)
 <use plots//xrdplot74.pdf>
-Package pdftex.def Info: plots//xrdplot74.pdf  used on input line 192.
+Package pdftex.def Info: plots//xrdplot74.pdf  used on input line 194.
 (pdftex.def)             Requested size: 472.31577pt x 295.21057pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1283,7 +1283,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <plots//xrdplot89.8.pdf, id=48, 462.52798pt x 289.08pt>
 File: plots//xrdplot89.8.pdf Graphic file (type pdf)
 <use plots//xrdplot89.8.pdf>
-Package pdftex.def Info: plots//xrdplot89.8.pdf  used on input line 201.
+Package pdftex.def Info: plots//xrdplot89.8.pdf  used on input line 203.
 (pdftex.def)             Requested size: 472.31577pt x 295.21057pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1291,7 +1291,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <plots//xrdplot95.0.pdf, id=49, 462.52798pt x 289.08pt>
 File: plots//xrdplot95.0.pdf Graphic file (type pdf)
 <use plots//xrdplot95.0.pdf>
-Package pdftex.def Info: plots//xrdplot95.0.pdf  used on input line 210.
+Package pdftex.def Info: plots//xrdplot95.0.pdf  used on input line 212.
 (pdftex.def)             Requested size: 472.31577pt x 295.21057pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1332,7 +1332,7 @@ sfonts/cm/cmr8.pfb><D:/Programy/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b><D:/Programy/Miktex/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/Programy/Mik
 tex/fonts/type1/public/amsfonts/cm/cmti12.pfb><D:/Programy/Miktex/fonts/type1/p
 ublic/cm-super/sfrm1200.pfb>
-Output written on 01_XRD.pdf (6 pages, 289675 bytes).
+Output written on 01_XRD.pdf (6 pages, 288401 bytes).
 PDF statistics:
  389 PDF objects out of 1000 (max. 8388607)
  22 named destinations out of 1000 (max. 500000)
